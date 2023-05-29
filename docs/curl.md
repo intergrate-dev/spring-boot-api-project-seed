@@ -3,8 +3,8 @@
 curl https://proxy.mimvp.com/login?user=admin&passwd=12345678
 
 ## post
-curl -d "key1=value1&key2=value2&key3=value3" protocol://ip:port/path
-curl -H "Content-Type:application/json" -X POST -d '{"name": "B", "poolId":"bxxStrategy", "orderId": "O_002"}' http://localhost:8080/choose
+curl -d "key1=value1&key2=value2&key3=value3" protocol://ip:port/path  
+curl -H "Content-Type:application/json" -X POST -d '{"name": "B", "poolId":"bxxStrategy", "orderId": "O_002"}' http://localhost:8080/choose    
 
 如果想看到详细的请求信息，我们可以加上 -v 参数
 curl localhost:9999/api/daizhige/article -v
